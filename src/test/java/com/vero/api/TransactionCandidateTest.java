@@ -32,6 +32,5 @@ class TransactionCandidateTest {
     @Test
     void placeholder_removeThisWhenYouHaveRealTests() {
         // Replace this test with tests that cover the behaviour you implemented.
-        assertTrue(true);
     }
 }
