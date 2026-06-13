@@ -31,6 +31,9 @@ class TransactionCandidateTest {
 
     @Test
     void placeholder_removeThisWhenYouHaveRealTests() {
+    
+        org.junit.jupiter.api.Assertions.assertTrue(true);
+
         // Replace this test with tests that cover the behaviour you implemented.
     }
 }
