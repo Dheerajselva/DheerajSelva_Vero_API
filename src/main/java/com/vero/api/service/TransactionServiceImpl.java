@@ -81,8 +81,4 @@ public class TransactionServiceImpl implements TransactionService {
     public Map<Category, BigDecimal> getTopSpendingCategories(List<Transaction> transactions, int topN) {
         return BudgetCalculator.getTopSpendingCategories(transactions, topN);
     }
-
-    public List<Transaction> getCategoryTransactionsForMonth(Category category, int year, int month) {
-        return repository.findByCategoryAndMonth(category, year, month);
-    }
 }
